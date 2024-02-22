@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AutomationFinalProj.TC1_login"/>
+      <class name="AutomationFinalProj.TC2_LoginValid"/>
+      <class name="AutomationFinalProj.TC3_LoginInvalid"/>
+      <class name="AutomationFinalProj.TC4_Logout"/>
+      <class name="AutomationFinalProj.TC5_ExistingMail"/>
+      <class name="AutomationFinalProj.TC6_ContactUs"/>
+      <class name="AutomationFinalProj.TC7_TestCasesPage"/>
+      <class name="AutomationFinalProj.TC8_AllProducts"/>
+      <class name="AutomationFinalProj.TC9_SearchProduct"/>
+      <class name="AutomationFinalProj.TC10_Subscription"/>
+      <class name="AutomationFinalProj.TC11_SubscriptionCart"/>
+      <class name="AutomationFinalProj.TC12_AddProduct"/>
+      <class name="AutomationFinalProj.TC13_ViewProduct"/>
+      <class name="AutomationFinalProj.TC14_PlaceOrder14"/>
+      <class name="AutomationFinalProj.TC15_PlaceOrder15"/>
+      <class name="AutomationFinalProj.TC16_PlaceOrder16"/>
+      <class name="AutomationFinalProj.TC17_RemoveProduct"/>
+      <class name="AutomationFinalProj.TC18_ViewCategoryProducts"/>
+      <class name="AutomationFinalProj.TC19_ViewBrandProducts"/>
+      <class name="AutomationFinalProj.TC20_SearchProd"/>
+      <class name="AutomationFinalProj.TC21_ReviewProduct"/>
+      <class name="AutomationFinalProj.TC22_RecommendedProduct"/>
+      <class name="AutomationFinalProj.TC23_BillingAddress"/>
+      <class name="AutomationFinalProj.TC24_DownloadInvoice"/>
+      <class name="AutomationFinalProj.TC25_ScrollUpWithArrow"/>
+      <class name="AutomationFinalProj.TC26_ScrollWithoutArrow"/>
+      
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
